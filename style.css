@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:wght@100;300;400;600&display=swap');
+
+body {
+  /* background-color: #F3EBE2; */
+  /* background-color: #FFD5C2; */
+  background-image: url("images/ocean.jpg");
+}
+
+h1, h2 {
+  color: #026c7a;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #4B3030;
+}
+
+.spacer {
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #351d07;
+}
+
+.card {
+  background-color: #FBF3EE;
+  width: 55%;
+  margin: 20px auto;
+  padding: 35px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 16px #351d07;
+  text-align: center;
+}
+
+a {
+  color: #583737;
+}
+
+.btn-magenta {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 25px;
+  background-color: #583737;
+  color:#F9F5F1;
+  border-radius: 7px;
+  transition: .4s;
+}
+
+.btn-magenta:hover{
+  background-color: #F3D8C7;
+  color: #583737;
+  border: 1px dotted #583737;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline {
+  display: inline-block;
+  font-size: 60px;
+  padding: 30px;
+}
+
+.icon:hover {
+  transition: .4s;
+  color: #F3D8C7;
+  font-size: 70px;
+}
+
+.cities {
+  width: 20%;
+  border-radius: 10%;
+  box-shadow: 2px 2px 3px #351d07;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
